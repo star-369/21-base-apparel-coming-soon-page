@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+/* centering with flexbox*/
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* centering with grid*/
+.grid-center {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  /* or*/
+  /* place-content: center;*/
+}
